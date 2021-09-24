@@ -218,7 +218,29 @@ main .titulo .explora:hover{
 
 /*-------------------- Corpo do Site --------------------*/
 
+/*-------------------- Rodapé --------------------*/
+footer.rodape{
+    height: 100%;
+    background: var(--coffee);
+    position: relative;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
 
+footer.rodape .container {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+footer.rodape .container a:hover {
+    text-decoration: underline;
+}
+
+footer.rodape .container a.contactos {
+    color: black;
+}
+/*-------------------- Rodapé --------------------*/
 
 /* Viewport less then or equal to 750px */
 @media only screen and (max-width: 750px){
