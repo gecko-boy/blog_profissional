@@ -8,7 +8,7 @@ html, body{
 }
 
 :root {
-    /* theme colors */
+    /*-------------------- theme colors --------------------*/
     --text-gray: #3f4954;
     --white-color: #fefae0;
     --light-green: #606c38;
@@ -23,7 +23,7 @@ html, body{
     --Abel: "Abel", cursive;
 }
 
-/* Global Classes */
+/*-------------------- Classes Globais --------------------*/
 a{
     text-decoration: none;
     color: var(--dark-green);
@@ -39,9 +39,42 @@ a{
 ul{
     list-style-type: none;
 }
-/* Global Classes */
 
-/* navbar */
+h1{
+    font-family: var(--Abel);
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: var(--Abel);
+    font-size: 2.5rem;
+}
+
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
+
+button.explora{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Abel);
+    cursor: pointer;
+}
+
+span {
+    font-family: var(--Abel);
+    color: var(--dark-green);
+}
+
+.container{
+    margin: 0 5vw;
+}
+/*-------------------- Classes Globais --------------------*/
+
+/*-------------------- Barra de Navegação --------------------*/
 .nav{
     background: var(--white-color);
     padding: 0 2rem;
@@ -114,7 +147,78 @@ ul{
 .nav .social i:hover {
     color:var(--light-green)
 }
-/* navbar */
+/*-------------------- Barra de Navegação --------------------*/
+
+/*-------------------- Carrossel --------------------*/
+main .blog{
+    background: url("../assets/imagemCarrossel.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
+main .blog .blog-post {
+    padding-top: 6rem;
+}
+
+main .blog-post .artigo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .artigo .post-title {
+    color: var(--dark-green);
+    padding: 2rem 0;
+}
+
+main .artigo .destaques {
+    padding: .7rem 2rem;
+    background: var(--dark-green);
+    color: var(--white-color);
+    margin: .5rem;
+}
+
+/*-------------------- Carrossel --------------------*/
+
+/*-------------------- Corpo do Site --------------------*/
+/*Título*/
+main .titulo {
+    background: url("../assets/paginaPrincipal.jpg");
+    background-size: cover;
+    height: 110vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+main .titulo .background-site {
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--dark-green);
+}
+
+main .titulo h1, h3 {
+    margin: .3rem;
+}
+
+main .titulo .explora {
+    margin: 1.8rem;
+    background: var(--gradient-bg);
+}
+
+main .titulo .explora:hover{
+    background: transparent;
+    border: 1px solid var(--white-color);
+}
+
+/*-------------------- Corpo do Site --------------------*/
+
+
 
 /* Viewport less then or equal to 750px */
 @media only screen and (max-width: 750px){
