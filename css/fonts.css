@@ -3,3 +3,21 @@
     font-family: Abel;
     src: url("../fonts/Abel/Abel-Regular.ttf");
 }
+
+/* font-family Fredericka the Great */
+@font-face {
+    font-family: Fred;
+    src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf");
+}
+
+/* font-family Gideon Roman */
+@font-face {
+    font-family: Roman;
+    src: url("../fonts/Gideon_Roman/GideonRoman-Regular.ttf");
+}
+
+/* font-family Special Elite */
+@font-face {
+    font-family: Elite;
+    src: url("../fonts/Special_Elite/LICENSE.txt");
+}

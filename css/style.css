@@ -21,13 +21,16 @@ html, body{
 
     /* theme font-family */
     --Abel: "Abel", cursive;
+    --Fred: "Fred", cursive;
+    --Roman: "Roman", cursive;
+    --Elite: "Elite", cursive;
 }
 
 /*-------------------- Classes Globais --------------------*/
 a{
     text-decoration: none;
     color: var(--dark-green);
-    font-family: var(--Abel);
+    font-family: var(--Roman);
 }
 
 .flex-row{
@@ -41,17 +44,17 @@ ul{
 }
 
 h1{
-    font-family: var(--Abel);
+    font-family: var(--Fred);
     font-size: 2.5rem;
 }
 
 h2{
-    font-family: var(--Abel);
+    font-family: var(--Roman);
     font-size: 2.5rem;
 }
 
 h3{
-    font-family: var(--Abel);
+    font-family: var(--Roman);
     font-size: 1.3rem;
 }
 
@@ -62,11 +65,6 @@ button.explora{
     font-size: 1rem;
     font-family: var(--Abel);
     cursor: pointer;
-}
-
-span {
-    font-family: var(--Abel);
-    color: var(--dark-green);
 }
 
 .container{
@@ -231,6 +229,7 @@ footer.rodape .container {
     grid-template-columns: 100%;
     justify-content: center;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 footer.rodape .container a:hover {
@@ -239,6 +238,15 @@ footer.rodape .container a:hover {
 
 footer.rodape .container a.contactos {
     color: black;
+}
+
+footer.rodape h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+footer.rodape h3 {
+    font-size: 1.2rem;
 }
 /*-------------------- Rodapé --------------------*/
 
@@ -251,4 +259,6 @@ footer.rodape .container a.contactos {
     .nav .toggle-collapse {
         display: initial;
     }
+
+
 }
